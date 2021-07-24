@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+:root {
+    font-size: 14px
+}
+
+.userPersona {
+    font-size: 17rem;
+    text-align: center;
+    color: #021335;
+    opacity: 0.05;
+    font-weight: 600;
+    margin: 0;
+    line-height: 145px;
+}
+
+.persona {
+    background-image: url('../img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 88px 155px;
+}
+
+.bg {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 36px;
+    position: relative;
+}
+
+.bg::after {
+    content: '';
+    background-image: url('../img/chair.png');
+    position: absolute;
+    width: 256px;
+    height: 209px;
+    left: 1020px;
+    top: 715px;
+}
+
+.grid-container {
+    display: grid;
+    gap: 50px;
+}
+
+.grid-items1 {
+    grid-column: 1 / 2;
+}
+
+.grid-items2 {
+    grid-column: 2 / 3;
+}
+
+.grid-items3 {
+    grid-column: 3 / 4;
+}
+
+.about {
+    width: 250px;
+}
+
+.about p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-items2 h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #021335;
+    line-height: 21px;
+}
+
+.grid-items2 p {
+    color: #717886;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.grid-items3 h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #021335;
+    line-height: 21px;
+}
+
+.grid-items3 p {
+    color: #717886;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.blockquote {
+    margin-top: 29px;
+    background-color: #ff5216;
+    border-radius: 21px;
+    padding: 30px 20px;
+    margin: 0;
+}
+
+.blockquote p {
+    color: #fff;
+
+}
+
+.blockquote img {
+    margin-bottom: 15px;
+}
+
+.grid-items3 ul {
+    padding: 15px;
+    color: #717886;
+    font-size: 1rem;
+}
+
+.grid-items3 li {
+    margin-bottom: 15px;
+}
+
+.grid-item1 {
+    grid-column: 1 / 2;
+}
+
+.grid-item2 {
+    grid-column: 2 / 3;
+}
+
+.grid-item3 {
+    grid-column: 3 / 4;
+}
+
+.grid-container:last-child {
+    display:grid;
+    grid-template-columns: 257px 257px 257px;
+    gap: 0 50px;
+}
+
+.grid-container:last-child h2 {
+    margin-top: 60px;
+}
+
+.personality {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs {
+    margin-bottom: 15px;
+}
